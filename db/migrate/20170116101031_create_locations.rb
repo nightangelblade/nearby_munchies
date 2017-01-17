@@ -4,6 +4,7 @@ class CreateLocations < ActiveRecord::Migration
       t.string :address
       t.float :latitude
       t.float :longitude
+      t.string :search_time
     end
   end
 end
