@@ -1,0 +1,9 @@
+.top-wrapper {
+  width: 100%;
+  color: red;
+}
+
+#map{
+  height: 100%;
+  margin: 0;
+}
