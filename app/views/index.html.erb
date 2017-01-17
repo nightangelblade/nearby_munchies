@@ -1,0 +1,7 @@
+<h1>Welcome to Nearby Munchies</h1>
+<h3>Past Searches</h3>
+<ul>
+<% @locations.each do |location| %>
+<li><a href="locations/<%= location.id %>"><%= location.address %>"</a></li>
+<% end %>
+</ul>
