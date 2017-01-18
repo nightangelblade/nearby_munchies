@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+# dotenv driver
+gem 'dotenv'
 
 # PostgreSQL driver
 gem 'pg'

@@ -1,7 +1,5 @@
 $(document).ready(function() {
-  mapOptions();
-
-  new google.maps.Map(document.getElementById('map'), mapOptions);
+  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 });
 
 var mapOptions = {
@@ -9,5 +7,7 @@ var mapOptions = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP
 };
+
+
 
 
