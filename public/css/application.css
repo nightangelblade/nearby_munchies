@@ -1,15 +1,27 @@
-html, body, #map {
+html, body,{
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-.top-wrapper {
-  width: 100%;
-  color: red;
+.page-content {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
 }
 
-#map{
-  height: 100%;
-  margin: 0;
+.top-wrapper {
+  width: 100%;
+  background-color: blue ; opacity: 0.69;
+}
+
+.top-navigation {
+  padding: 15px;
+  color: white;
+  font-size: 15pt;
+}
+
+.top-links {
+  text-decoration: none;
+  color: white;
 }

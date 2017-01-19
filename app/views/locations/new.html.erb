@@ -1,4 +1,21 @@
 <form action="/locations/new" method="POST">
-  <input type="text" name="location_address">
-  <input type="submit" value="Submit">
+  <div>
+    <label>Address:
+      <input type="text" name="location[address]" value="Enter your address">
+    </label>
+  </div>
+  <div>
+    <label>or</label>
+  </div>
+  <div>
+    <label>Coordinates:
+        <input type="text" name="location[latitude]" value="Enter latitude"> |
+        <input type="text" name="location[longitude]" value="Enter longitude">
+    </label>
+  </div>
+  <div>
+    <input type="submit" value="Submit">
+  </div>
 </form>
+
+
