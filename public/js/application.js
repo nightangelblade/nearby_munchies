@@ -9,6 +9,5 @@ var newSearch = function() {
     var searchForm = "<div id='search-form'></div>"
     $(".page-content").append($(searchForm));
     $(".page-content").find("#search-form").load("/locations/new .search-content");
-
   })
 }
