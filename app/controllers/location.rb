@@ -1,4 +1,9 @@
 get '/locations' do
+  @locations = Location.all
+  erb :"/locations/index.html"
+end
+
+get '/locations/new' do
   erb :"/locations/new.html"
 end
 
@@ -8,7 +13,7 @@ get '/locations/:id' do
   erb :"/locations/show.html"
 end
 
-post '/locations/new' do
+post '/locations/' do
   @location_info = params[:location]
   p @location_info
   if @location_info[:address] != "" && @location_info[:address] != "Enter your address"

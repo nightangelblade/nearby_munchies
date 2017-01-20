@@ -1,5 +1,8 @@
-<h2><%= @location.address %></h2>
-
-<iframe width="600" height="450" frameborder="0" style="border:0"
-src="https://www.google.com/maps/embed/v1/search?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=15&q=restaurants%20near%20<%= @map_location %>&key=<%= ENV['MAP_KEY'] %>" allowfullscreen></iframe>
+<h2 class="page-head">Point of Reference</h2>
+<div class="page-content">
+  <p><strong>Location:</strong></p>
+  <p><%= @location.address %></p>
+  <iframe width="600" height="450" frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/search?center=<%= @location.latitude %>,<%= @location.longitude %>&zoom=15&q=restaurants%20near%20<%= @map_location %>&key=<%= ENV['MAP_KEY'] %>" allowfullscreen></iframe>
+</div>
 
