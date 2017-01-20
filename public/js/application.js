@@ -1,13 +1,13 @@
 $(document).ready(function() {
-  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  newSearch();
 });
 
-var mapOptions = {
-    center: new google.maps.LatLng(37.7831,-122.4039),
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-};
-
-
-
-
+var newSearch = function() {
+  $("#search").on("click", function(event){
+    event.preventDefault();
+    console.log("Hello!");
+    var searchForm = "<div id='search-form'></div>"
+    $(".page-content").append($(searchForm));
+    $(".page-content").find("#search-form").load("/locations/new .search-content");
+  })
+}

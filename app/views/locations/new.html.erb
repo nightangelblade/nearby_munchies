@@ -1,4 +1,26 @@
-<form action="/locations/new" method="POST">
-  <input type="text" name="location_address">
-  <input type="submit" value="Submit">
-</form>
+<h2 class="page-head">Munchies Locator</h2>
+<div class="search-content">
+  <form action="/locations/" method="POST">
+    <div class="search">
+      <label>Address:
+        <input type="text" name="location[address]" value="Enter your address">
+      </label>
+    </div>
+    <hr />
+    <div class="search">
+      <label>or</label>
+    </div>
+    <div class="search">
+      <label>Coordinates:
+          <input type="text" name="location[latitude]" value="Enter latitude"> |
+          <input type="text" name="location[longitude]" value="Enter longitude">
+      </label>
+    </div>
+    <div class="search">
+      <label>
+        <input type="submit" value="Submit">
+      </label>
+    </div>
+  </form>
+</div>
+

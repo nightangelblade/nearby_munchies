@@ -1,4 +1,4 @@
 get '/' do
-  @locations = Location.all
+  @locations = Location.last(5)
   erb :"index.html"
 end
