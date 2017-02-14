@@ -4,7 +4,7 @@ Ever gone out for drinks, partying, or just hanging out with friends. Then all o
 
 #Live Site
 Hosted on Heroku
-[link](https://nearbymunchies.herokuapp.com/ "Nearby Munchies")
+[Nearby Munchies](https://nearbymunchies.herokuapp.com/ "Nearby Munchies")
 
 #Interface
 
