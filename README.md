@@ -12,7 +12,7 @@ Hosted on Heroku
 When you first visit the Heroku site you will see a list of the five most recent searches performed by the app. 
 ![Home Screenshot](/Home.png "Home")  
 If you have searched before, you can click on the "All Searches" button in the navigation which will give you all of the past searches made with the app.
-![All Screenshot](/All.png "Past Searches")  
+![All Screenshot](/All2.png "Past Searches")  
 
 - Searching a new location  
 If you wish to perform a new search, you can click on the "Find Muncheries" button on the navigation bar. 
