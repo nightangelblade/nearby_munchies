@@ -19,3 +19,7 @@ Depending on if you have JavaScript enabled on your browser, the input form will
 You can enter either your current address, or if you happen to know the coordinates of your location, the latitude and longitude. From there you will be directed to a new page with a Google Maps that will show you the closest restaurants that are currently open.
 ![Result Screenshot](/Location.png "Result")  
 Note: In the background, the Geocoder gem will determine the closest coordinates or address to your location, then turn that into a search string which is then passed to the Google Maps Embed API. This is what returns back the information you see on the new page.
+
+#Issues
+
+Currently since this app was built in Sinatra, the Geocoder gem wasn't included in a proper fashion, as I believe the instructions were intended for a Rails based application. I needed to create a couple of workaround methods within the Location model because Geocoder's built in methods were not capable of being called. In the future, or if I rebuild this app in Rails, I'll be sure to look into this issue.
