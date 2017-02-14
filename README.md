@@ -16,6 +16,6 @@ If you wish to perform a new search, you can click on the "Find Muncheries" butt
 Depending on if you have JavaScript enabled on your browser, the input form will appear either on the same page, or you will be directed to the page containing it.
 ![Search2 Screenshot](/Search2.png "Static")  
 
-You can enter either your current address, or if you happen to know the coordinates of your location, the latitude and longitude. From there you will be directed to a new page with a Google Maps that will show you the closest restaurants that are current open.
+You can enter either your current address, or if you happen to know the coordinates of your location, the latitude and longitude. From there you will be directed to a new page with a Google Maps that will show you the closest restaurants that are currently open.
 ![Result Screenshot](/Location.png "Result")  
 Note: In the background, the Geocoder gem will determine the closest coordinates or address to your location, then turn that into a search string which is then passed to the Google Maps Embed API. This is what returns back the information you see on the new page.
